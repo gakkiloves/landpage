@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Pages
 
 - [coin gua](/coingua/dist/index.html)
+- [inncube](/inncube/dist/index.html)
 
 ## Support or Contact
 😄
