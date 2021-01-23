@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Pages
 
-- [bi gua](/bigua/dist/index.html)
+- [coin gua](/coingua/dist/index.html)
 
 ## Support or Contact
 😄
