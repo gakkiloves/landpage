@@ -98,6 +98,7 @@ header{
 }
 .man-txt{
   width: 30vw;
+  text-align: left;
   margin-left: 2.5rem;
   line-height: 2rem;
   letter-spacing: .2rem;
@@ -131,7 +132,7 @@ header{
 .golden-btn{
   width: 10rem;
   height: 3.5rem;
-  background: #E7BD74;
+  background: #BF9D2E;
   border-radius: 4px;
   color: #F4F4F4;
   font-size: 1.2rem;
@@ -153,4 +154,50 @@ header{
 }
 .con-email{
   color: #E7BD74;
+}
+#order form{
+  width: 60vw;
+  margin: 0 auto;
+  text-align: left;
+}
+.input-row{
+  display: flex;
+  flex-flow: row wrap;
+  margin: 1rem 0;
+}
+.i-input{
+  margin: .2rem .3rem;
+}
+.i-label{
+  margin-bottom: .6rem;
+}
+.i-input input{
+  min-width: 18rem;
+  height: 3rem;
+  outline: #E7BD74;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  text-indent: 1rem;
+}
+.i-select{
+  display: flex;
+  align-items: center;
+}
+.i-select input{
+  font-size: 2rem;
+}
+.i-select span{
+  margin-left: 1rem;
+}
+.brain-content{
+  width: 70vw;
+  margin: 0 auto;
+  text-align: left;
+}
+.brain-content p{
+  white-space: pre-line;
+  margin: 1.8rem 0;
+}
+footer{
+  padding: 3rem;
 }
