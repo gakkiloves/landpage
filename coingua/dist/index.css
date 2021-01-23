@@ -67,16 +67,6 @@ header{
     align-items: center;
     padding: .4rem;
 }
-.tl-item{
-    display: inline-block;
-}
-.ver-site{
-    width: 7rem;
-    line-height: 7rem;
-    color: #4A4A4B ;
-    -webkit-writing-mode: vertical-rl;
-    writing-mode: vertical-rl;
-}
 .t-title{
     font-size: 2.4rem;
     line-height: 3rem;
