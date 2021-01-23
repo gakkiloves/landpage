@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none
+}
+button{
+  outline: none;
+  border:none;
+}
+body {
+  font-size : 20px;
+  color: #ffffff;
+  background: #000000;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+h2{
+  margin: 5rem 0;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  background: #000000;
+}
+.nav-bar{
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1rem;
+  justify-content: center;
+}
+.nav-item{
+  margin: 1.3rem 2.2rem;
+  cursor: pointer;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.logo-bar{
+  text-align: center;
+  margin-top: 5rem;
+}
+.b-dot-bar{
+  margin: 5rem auto;
+}
+.b-dot{
+  width: 1rem;
+  height: 1rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+.sec-item{
+  text-align: center;
+  min-height: 20rem;
+  margin-top: 10rem;
+}
+#welcome{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2.3rem;
+  color: #FFFFFF;
+  letter-spacing: .8rem;
+  opacity: 1;
+  width: 80vw;
+  margin: 10rem auto;
+}
+.quote{
+  width: 60vw;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: #E7BD74;
+  margin: 5rem auto;
+}
+.about-txt{
+  width: 60vw;
+  text-align: left;
+  margin: 0 auto;
+  white-space: pre-line;
+}
+
+#team{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.man-row{
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #707070;
+  padding: 3rem 0;
+}
+.man-txt{
+  width: 30vw;
+  margin-left: 2.5rem;
+  line-height: 2rem;
+  letter-spacing: .2rem;
+}
+.man-txt strong{
+  font-size: 2.3rem;
+}
+.man-job{
+  margin: 2rem 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.w-wrapper{
+  margin-bottom: 3rem;
+}
+.w-title{
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+
+}
+.works-group{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.work-item{
+  margin: 2rem;
+}
+.golden-btn{
+  width: 10rem;
+  height: 3.5rem;
+  background: #E7BD74;
+  border-radius: 4px;
+  color: #F4F4F4;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+.offer-wrapper{
+  background: #707070;
+}
+.contact-content{
+  width: 75vw;
+  margin: 4rem auto;
+  text-align: left;
+  text-indent: 1rem;
+  line-height: 2.8rem;
+}
+.cont-addr{
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+.con-email{
+  color: #E7BD74;
+}
