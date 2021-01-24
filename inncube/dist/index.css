@@ -3,12 +3,19 @@
   padding: 0;
   list-style:none
 }
+html{
+  font-size : 10px;
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 20px !important;
+    }
+}
 button{
   outline: none;
   border:none;
 }
 body {
-  font-size : 20px;
   color: #ffffff;
   background: #000000;
 }
@@ -67,7 +74,6 @@ header{
   color: #FFFFFF;
   letter-spacing: .8rem;
   opacity: 1;
-  width: 80vw;
   margin: 10rem auto;
 }
 .quote{
@@ -197,6 +203,90 @@ header{
 .brain-content p{
   white-space: pre-line;
   margin: 1.8rem 0;
+}
+.offer-tabs{
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.offer-tabs button{
+  color: #E7BD74;
+  border: 1px solid;
+  padding: .3rem 2.5rem;
+  border-radius: 5px;
+  background: white;
+}
+.offer-wrapper{
+  background: #F4F6F7;
+  padding: 3rem;
+  color: black;
+}
+.search-line{
+  border: 1px solid black;
+  text-align: left;
+  padding: .2rem 1rem;
+}
+.offer-cards{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.offer-card{
+  border: 1px solid;
+  width: 30%;
+  margin-top: .8rem;
+  margin-right: .2rem;
+  min-width: 300px;
+}
+.oc-content{
+  padding: 1rem;
+  text-align: left;
+}
+.oc-head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.oc-head img{
+    margin-right: 2rem;
+}
+.oc-desc{
+  margin-top: .4rem;
+  color: #393939;
+  font-size: 1.1rem;
+}
+.oc-more{
+  margin: 1rem;
+  text-align: center;
+}
+.oc-action{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: .3rem;
+  border-top: 1px solid;
+}
+.oc-action button{
+  font-size: 1rem;
+  background: transparent;
+}
+.ocb-favor{
+  color: #6235FF;
+}
+.offer-link{
+  margin-top: 1rem;
+}
+.offer-link a{
+  color: #707070;
+  margin: 0 1rem;
+  font-size: .9rem;
+}
+.search-line select{
+  font-size: 1rem;
+  padding: .3rem 1.2rem;
 }
 footer{
   padding: 3rem;
