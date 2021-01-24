@@ -2,37 +2,18 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size : 10px;
+}
 body {
-    font-size : 20px;
     color: #ffffff;
     background: #232129;
 }
-/*@media only screen and (min-width: 401px){*/
-/*    html {*/
-/*        font-size: 25px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 428px){*/
-/*    html {*/
-/*        font-size: 26.75px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 481px){*/
-/*    html {*/
-/*        font-size: 30px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 569px){*/
-/*    html {*/
-/*        font-size: 35px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 641px){*/
-/*    html {*/
-/*        font-size: 40px !important;*/
-/*    }*/
-/*}*/
-
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 20px !important;
+    }
+}
 
 /*header*/
 header{
@@ -118,6 +99,9 @@ main{
     width: 6rem;
     background: #F0546C;
     border-radius: .5rem;
+}
+.c-avatar img{
+    height: 120%;
 }
 .c-title{
     font-size: 1rem;
