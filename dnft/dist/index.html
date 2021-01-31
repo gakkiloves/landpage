@@ -1,375 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+  WARNING! Make sure that you match all Quasar related
+  tags to the same version! (Below it's "@1.15.1")
+-->
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="DNFT">
-    <meta name="keywords" content="dnft, polkadot, blockchain, substrate">
-    <link rel="icon" type="image/png" href="./img/dnft-logo.png">
-    <title>DNFT Protocol</title>
-        <script src="static/shell.js"></script>
-    <script async="" src="static/js"></script>
-    <script src="static/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-    <link href="static/index.b64a2c51.chunk.css" rel="stylesheet">
-    <style>
-        ::-webkit-scrollbar {
-            /*滚动条整体样式*/
-            width : 10px;  /*高宽分别对应横竖滚动条的尺寸*/
-            height: 3px;
-        }
-        ::-webkit-scrollbar-thumb {
-            /*滚动条里面小方块*/
-            border-radius: 10px;
-            box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
-            background   : #b5ecc0;
-        }
-        ::-webkit-scrollbar-track {
-            /*滚动条里面轨道*/
-            box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-            background   : transparent;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>DNFT</title>
+    <link rel="icon" href="./img/dnftLogo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@^4.0.0/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/quasar@1.15.1/dist/quasar.min.css" rel="stylesheet" type="text/css">
+    <link href="./font/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="./index.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<noscript>You need to enable JavaScript to run this app.</noscript>
-<div id="root">
-    <div class="App">
-        <header class="Header_header__3mObx">
-            <div class="Container_container__2RP38 Header_container__X8QFV">
-                <img
-                        src="img/dnft-logo.png" class="Header_logo__2ins2" alt="logo">
-                <strong style="font-size: 20px;">DNFT</strong>
-                <div class="Header_menu__Y5boZ">
-                    <div class="Menu_root__3cL_d Header_menuItem__1x3og"><p class="Menu_title__2M2WK">Resource<img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU5LjEgKDg2MTQ0KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT7nrq3lpLQxLTEgY29weTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBQ0FMQS1Db3B5LTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDgyLjAwMDAwMCwgLTQxLjAwMDAwMCkiIGZpbGw9IiM5NzlFQUEiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSLnrq3lpLQxLTEtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5MC4wMDAwMDAsIDQ2LjAwMDAwMCkgcm90YXRlKC0xODAuMDAwMDAwKSB0cmFuc2xhdGUoLTEwOTAuMDAwMDAwLCAtNDYuMDAwMDAwKSB0cmFuc2xhdGUoMTA4Mi4wMDAwMDAsIDQxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iLTIuMjczNzM2NzVlLTEzIDguMDkwMTYwNjIgMS44ODg0NzY0NiAxMCA4IDMuODE5MzQxMzQgMTQuMTExNTIzNSAxMCAxNiA4LjA5MDE2MDYyIDcuOTk5NjY2MzUgLTIuNTU3OTUzODVlLTEzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                            class="Menu_arrowIcon__tHKAK" alt="arrow-down"></p>
-                        <ul class="Menu_menu__1FC_d">
-                            <li class="Menu_menuItem__3pHRt"><a href="https://github.com/DNFT-Team/DNFT-white-paper"
-                                                                target="_blank" rel="noopener noreferrer">Whitepaper</a>
-                            </li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://github.com/DNFT-Team"
-                                                                target="_blank"
-                                                                rel="noopener noreferrer">Documentation</a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://github.com/DNFT-Team"
-                                                                target="_blank"
-                                                                rel="noopener noreferrer">Developer Tools</a></li>
-                        </ul>
-                    </div>
-                    <div class="Menu_root__3cL_d Header_menuItem__1x3og"><p class="Menu_title__2M2WK">Products<img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU5LjEgKDg2MTQ0KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT7nrq3lpLQxLTEgY29weTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBQ0FMQS1Db3B5LTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDgyLjAwMDAwMCwgLTQxLjAwMDAwMCkiIGZpbGw9IiM5NzlFQUEiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSLnrq3lpLQxLTEtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5MC4wMDAwMDAsIDQ2LjAwMDAwMCkgcm90YXRlKC0xODAuMDAwMDAwKSB0cmFuc2xhdGUoLTEwOTAuMDAwMDAwLCAtNDYuMDAwMDAwKSB0cmFuc2xhdGUoMTA4Mi4wMDAwMDAsIDQxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iLTIuMjczNzM2NzVlLTEzIDguMDkwMTYwNjIgMS44ODg0NzY0NiAxMCA4IDMuODE5MzQxMzQgMTQuMTExNTIzNSAxMCAxNiA4LjA5MDE2MDYyIDcuOTk5NjY2MzUgLTIuNTU3OTUzODVlLTEzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                            class="Menu_arrowIcon__tHKAK" alt="arrow-down"></p>
-                        <ul class="Menu_menu__1FC_d">
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#what-is-dnft">What
-                                is DNFT</a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#dnft-apps">NFT Center
-                            </a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#dnft-apps">Game Center
-                            </a></li>
-                            <li class="Menu_menuItem__3pHRt"><a
-                                    href="https://dnft.world/index.html#roadmap">Roadmap</a></li>
-                        </ul>
-                    </div>
-                    <div class="Menu_root__3cL_d Header_menuItem__1x3og"><p class="Menu_title__2M2WK">Foundation<img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU5LjEgKDg2MTQ0KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT7nrq3lpLQxLTEgY29weTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBQ0FMQS1Db3B5LTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDgyLjAwMDAwMCwgLTQxLjAwMDAwMCkiIGZpbGw9IiM5NzlFQUEiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSLnrq3lpLQxLTEtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5MC4wMDAwMDAsIDQ2LjAwMDAwMCkgcm90YXRlKC0xODAuMDAwMDAwKSB0cmFuc2xhdGUoLTEwOTAuMDAwMDAwLCAtNDYuMDAwMDAwKSB0cmFuc2xhdGUoMTA4Mi4wMDAwMDAsIDQxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iLTIuMjczNzM2NzVlLTEzIDguMDkwMTYwNjIgMS44ODg0NzY0NiAxMCA4IDMuODE5MzQxMzQgMTQuMTExNTIzNSAxMCAxNiA4LjA5MDE2MDYyIDcuOTk5NjY2MzUgLTIuNTU3OTUzODVlLTEzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                            class="Menu_arrowIcon__tHKAK" alt="arrow-down"></p>
-                        <ul class="Menu_menu__1FC_d">
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#grant">DNFT NFT Grant
-                            </a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#team">DNFT Game
-                                Grant</a>
-                            </li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#partners">Partners</a>
-                            </li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#ecosystem">Ecosystem
-                                Projects</a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="Header_mobileMenu__16yMS"><img
-                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYzLjEgKDkyNDUyKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzNS4wMDAwMDAsIC0yNC4wMDAwMDApIiBmaWxsPSIjMzMzMzMzIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzUuMDAwMDAwLCAyNC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIHg9IjAiIHk9IjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyIj48L3JlY3Q+CiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLUNvcHkiIHg9IjAiIHk9IjkiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyIj48L3JlY3Q+CiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLUNvcHktMiIgeD0iMCIgeT0iMTgiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyIj48L3JlY3Q+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                        alt="menu"></div>
-                <div class="Header_mobileMenuContainer__T-cxN">
-                    <div class="Header_mobileMenu__16yMS"><img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYzLjEgKDkyNDUyKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzNS4wMDAwMDAsIC0yNC4wMDAwMDApIiBmaWxsPSIjMzMzMzMzIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzUuMDAwMDAwLCAyNC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIHg9IjAiIHk9IjAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyIj48L3JlY3Q+CiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLUNvcHkiIHg9IjAiIHk9IjkiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyIj48L3JlY3Q+CiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLUNvcHktMiIgeD0iMCIgeT0iMTgiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyIj48L3JlY3Q+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                            alt="menu"></div>
-                    <div class="Menu_root__3cL_d Header_menuItem__1x3og"><p class="Menu_title__2M2WK">Resource<img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU5LjEgKDg2MTQ0KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT7nrq3lpLQxLTEgY29weTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBQ0FMQS1Db3B5LTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDgyLjAwMDAwMCwgLTQxLjAwMDAwMCkiIGZpbGw9IiM5NzlFQUEiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSLnrq3lpLQxLTEtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5MC4wMDAwMDAsIDQ2LjAwMDAwMCkgcm90YXRlKC0xODAuMDAwMDAwKSB0cmFuc2xhdGUoLTEwOTAuMDAwMDAwLCAtNDYuMDAwMDAwKSB0cmFuc2xhdGUoMTA4Mi4wMDAwMDAsIDQxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iLTIuMjczNzM2NzVlLTEzIDguMDkwMTYwNjIgMS44ODg0NzY0NiAxMCA4IDMuODE5MzQxMzQgMTQuMTExNTIzNSAxMCAxNiA4LjA5MDE2MDYyIDcuOTk5NjY2MzUgLTIuNTU3OTUzODVlLTEzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                            class="Menu_arrowIcon__tHKAK" alt="arrow-down"></p>
-                        <ul class="Menu_menu__1FC_d">
-                            <li class="Menu_menuItem__3pHRt"><a href="https://github.com/AcalaNetwork/Acala-white-paper"
-                                                                target="_blank" rel="noopener noreferrer">Whitepaper</a>
-                            </li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://github.com/AcalaNetwork/Acala/wiki"
-                                                                target="_blank"
-                                                                rel="noopener noreferrer">Documentation</a></li>
-                        </ul>
-                    </div>
-                    <div class="Menu_root__3cL_d Header_menuItem__1x3og"><p class="Menu_title__2M2WK">Products<img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU5LjEgKDg2MTQ0KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT7nrq3lpLQxLTEgY29weTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBQ0FMQS1Db3B5LTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDgyLjAwMDAwMCwgLTQxLjAwMDAwMCkiIGZpbGw9IiM5NzlFQUEiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSLnrq3lpLQxLTEtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5MC4wMDAwMDAsIDQ2LjAwMDAwMCkgcm90YXRlKC0xODAuMDAwMDAwKSB0cmFuc2xhdGUoLTEwOTAuMDAwMDAwLCAtNDYuMDAwMDAwKSB0cmFuc2xhdGUoMTA4Mi4wMDAwMDAsIDQxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iLTIuMjczNzM2NzVlLTEzIDguMDkwMTYwNjIgMS44ODg0NzY0NiAxMCA4IDMuODE5MzQxMzQgMTQuMTExNTIzNSAxMCAxNiA4LjA5MDE2MDYyIDcuOTk5NjY2MzUgLTIuNTU3OTUzODVlLTEzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                            class="Menu_arrowIcon__tHKAK" alt="arrow-down"></p>
-                        <ul class="Menu_menu__1FC_d">
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#what-is-DNFT">What
-                                is DNFT</a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#DNFT-apps">DNFT
-                                Apps</a></li>
-                            <li class="Menu_menuItem__3pHRt"><a
-                                    href="https://dnft.world/index.html#roadmap">Roadmap</a></li>
-                        </ul>
-                    </div>
-                    <div class="Menu_root__3cL_d Header_menuItem__1x3og"><p class="Menu_title__2M2WK">Foundation<img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTYgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU5LjEgKDg2MTQ0KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT7nrq3lpLQxLTEgY29weTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBQ0FMQS1Db3B5LTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDgyLjAwMDAwMCwgLTQxLjAwMDAwMCkiIGZpbGw9IiM5NzlFQUEiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSLnrq3lpLQxLTEtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5MC4wMDAwMDAsIDQ2LjAwMDAwMCkgcm90YXRlKC0xODAuMDAwMDAwKSB0cmFuc2xhdGUoLTEwOTAuMDAwMDAwLCAtNDYuMDAwMDAwKSB0cmFuc2xhdGUoMTA4Mi4wMDAwMDAsIDQxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iLTIuMjczNzM2NzVlLTEzIDguMDkwMTYwNjIgMS44ODg0NzY0NiAxMCA4IDMuODE5MzQxMzQgMTQuMTExNTIzNSAxMCAxNiA4LjA5MDE2MDYyIDcuOTk5NjY2MzUgLTIuNTU3OTUzODVlLTEzIj48L3BvbHlnb24+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
-                            class="Menu_arrowIcon__tHKAK" alt="arrow-down"></p>
-                        <ul class="Menu_menu__1FC_d">
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#council">Council
-                                member</a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#team">Contributors</a>
-                            </li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#partners">Partners</a>
-                            </li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/index.html#ecosystem">Ecosystem
-                                Projects</a></li>
-                            <li class="Menu_menuItem__3pHRt"><a href="https://dnft.world/#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <a id="cover"></a>
-        <section class="Cover_root__2mf1C">
-            <div class="Container_container__2RP38">
-                <div class="Cover_background__Nre3X"></div>
-                <h1 class="Cover_title__3V3Qc">A decentralized NFT and Game center powering cross
-                    blockchain applications for Polkadot&substrate Ecosystem</h1>
+<!-- Add the following at the end of your body tag -->
+    <div id="q-app" class="text-white">
+        <q-layout view="hHh LpR fFf" class="dnft-layout">
 
-                <ul class="Cover_assetsList__3LLVn">
-                    <li class="Cover_assetItem__2F7cK"><img class="Cover_assetItemImg__1jLsf"
-                                                            src="img/dnft-logo.png" alt="Acala">
-                        <p class="Cover_assetItemTitle__GwYqD">DNFT</p>
-                        <p class="Cover_assetItemTitle__GwYqD">MainNet</p></li>
-                    <li class="Cover_assetItem__2F7cK"><img class="Cover_assetItemImg__1jLsf"
-                                                            src="img/knft-logo.png"
-                                                            alt="Karura">
-                        <p class="Cover_assetItemTitle__GwYqD">KNFT</p>
-                        <p class="Cover_assetItemTitle__GwYqD">AntecedentNet</p></li>
-                    <li class="Cover_assetItem__2F7cK"><img class="Cover_assetItemImg__1jLsf"
-                                                            src="img/tnft-logo.png"
-                                                            alt="Mandala">
-                        <p class="Cover_assetItemTitle__GwYqD">TNFT</p>
-                        <p class="Cover_assetItemTitle__GwYqD">TestNet</p></li>
-                </ul>
-            </div>
-        </section>
-        <a id="information"></a>
-        <section class="Information_root__1WC74">
-            <div class="Container_container__2RP38">
-                <div class="Information_token__266eG">
-                    <p class="Information_tokenDetail__1myIm">1 dUSD(DNFT Dollar on
-                    MainNet) = 1 US
-                    Dollar</p>
-                    <p class="Information_tokenExtra__8Jd3T">Your New Start for Crypto NFT&Game World </p>
-                </div>
-                <a id="what-is-acala"></a>
-                <div>
-                    <p class="Information_acalaTitle__1qvaJ">DOT for DNFT</p>
-                    <p class="Information_acalaDescribe__12A5P">Stake DOTs for dUSD.</p>
-                </div>
-                <div>
-                    <p class="Information_acalaTitle__1qvaJ">DAO for DNFT</p>
-                    <p class="Information_acalaDescribe__12A5P">DNF holders will become part of DNFT DAO</p>
-                </div>
-                <div>
-                    <p class="Information_acalaTitle__1qvaJ">Defi for DNFT</p>
-                    <p class="Information_acalaDescribe__12A5P">Let Defi accelerate the ecosystem of NFT and Game </p>
-                </div>
-                <div>
-                    <p class="Information_acalaTitle__1qvaJ">Decentralise for DNFT</p>
-                    <p class="Information_acalaDescribe__12A5P">A new decentralise platform for NFT and Game.</p>
-                </div>
-        </section>
-        <a id="roadmap"></a>
-        <section class="Roadmap_root__1nfMC">
-            <div class="Container_container__2RP38"><p class="Roadmap_title__3SU8Q">Roadmap</p>
-                <div class="Roadmap_timelineContainer__3G1Ng">
-                    <ul class="Roadmap_timeline__2oTn1">
-                        <li class="Roadmap_timelineItem__1dlXL">
-                            <div class="Roadmap_precent__3mzSR"></div>
-                            <p><span class="Roadmap_timelineYear__5SHn_">2020</span><span
-                                    class="Roadmap_timelineQuarter__CCDSv">.Q4</span></p>
-                            <ul class="Roadmap_timelineDetail__sozS9">
-                                <li class="Roadmap_complated__1QfPe"><p>DNFT Incorporated</p></li>
-                                <li class="Roadmap_complated__1QfPe"><p>Development Kick-off</p></li>
-                            </ul>
-                        </li>
-                        <li class="Roadmap_timelineItem__1dlXL Roadmap_current__3d4wZ">
-                            <div class="Roadmap_precent__3mzSR Roadmap_current__3d4wZ"></div>
-                            <p><span class="Roadmap_timelineYear__5SHn_">2021</span><span
-                                    class="Roadmap_timelineQuarter__CCDSv">.Q1</span></p>
-                            <ul class="Roadmap_timelineDetail__sozS9">
-                                <li class="Roadmap_complated__1QfPe"><p>Web3 Foundation Grant</p></li>
-                                <li class="Roadmap_complated__1QfPe"><p>Whitepaper &amp; Economic model</p></li>
-                            </ul>
-                        </li>
-                        <li class="Roadmap_timelineItem__1dlXL Roadmap_feature__Su7mc">
-                            <div class="Roadmap_precent__3mzSR Roadmap_feature__Su7mc"></div>
-                            <p><span class="Roadmap_timelineYear__5SHn_">2021</span><span
-                                    class="Roadmap_timelineQuarter__CCDSv">.Q2</span></p>
-                            <ul class="Roadmap_timelineDetail__sozS9">
-                                <li class=""><p>Launch DNFT Testnet </p></li>
-                                <li class=""><p>Launch DNFT on Kusama</p></li>
-                                <li class=""><p>Launch DNFT on Polkadot</p></li>
-                            </ul>
-                        </li>
-                        <li class="Roadmap_timelineItem__1dlXL Roadmap_feature__Su7mc">
-                            <div class="Roadmap_precent__3mzSR Roadmap_feature__Su7mc"></div>
-                            <p><span class="Roadmap_timelineYear__5SHn_">2021</span><span
-                                    class="Roadmap_timelineQuarter__CCDSv">.Q3</span></p>
-                            <ul class="Roadmap_timelineDetail__sozS9">
-                                <li class=""><p>Launch-Code Complete</p></li>
-                                <li class=""><p>Security Aduit/Economic Audit</p></li>
-                            </ul>
-                        </li>
-                        <li class="Roadmap_timelineItem__1dlXL Roadmap_feature__Su7mc">
-                            <div class="Roadmap_precent__3mzSR Roadmap_feature__Su7mc"></div>
-                            <p><span class="Roadmap_timelineYear__5SHn_">2021</span><span
-                                    class="Roadmap_timelineQuarter__CCDSv">.Q4</span></p>
-                            <ul class="Roadmap_timelineDetail__sozS9">
-                                <li class=""><p>DNFT NFT&Game Grant Lanch</p></li>
-                                <li class=""><p>NFT&Game APP Development Support</p></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            <q-header class="dnft-head">
+                <q-toolbar class="dnft-hh">
+                    <q-toolbar-title v-show="!$q.screen.lt.sm">
+                        <q-avatar>
+                            <img src="./img/dnftLogo.svg">
+                        </q-avatar>
+                        DNFT.world
+                    </q-toolbar-title>
+                    <q-btn flat label="Resource">
+                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
+                            <q-list seperater style="min-width: 100px">
+                                <q-item tag="a" clickable href="https://github.com/DNFT-Team/DNFT-white-paper" target="_blank">
+                                    <q-item-section>Whitepaper</q-item-section>
+                                </q-item>
+                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">
+                                    <q-item-section>Documentation</q-item-section>
+                                </q-item>
+                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">
+                                    <q-item-section>Developer Tools</q-item-section>
+                                </q-item>
+                            </q-list>
+                        </q-menu>
+                    </q-btn>
+                    <q-btn flat label="Products">
+                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
+                            <q-list seperater style="min-width: 100px">
+                                <q-item tag="a" clickable href="https://dnft.world/index.html#what-is-dnft">
+                                    <q-item-section>What is DNFT</q-item-section>
+                                </q-item>
+                                <q-item tag="a" clickable href="https://dnft.world/index.html#Applications">
+                                    <q-item-section>Applications</q-item-section>
+                                </q-item>
+                                <q-item tag="a" clickable href="https://dnft.world/index.html#roadmap">
+                                    <q-item-section>Roadmap</q-item-section>
+                                </q-item>
+                            </q-list>
+                        </q-menu>
+                    </q-btn>
+                    <q-btn flat label="Foundation">
+                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
+                            <q-list seperater style="min-width: 100px">
+                                <q-item tag="a" clickable href="https://dnft.world/index.html#partners">
+                                    <q-item-section>Partners</q-item-section>
+                                </q-item>
+                                <q-item tag="a" clickable href="https://dnft.world/index.html#join-us">
+                                    <q-item-section>Join us</q-item-section>
+                                </q-item>
+                                <q-item tag="a" clickable href="https://dnft.world/index.html#grant">
+                                    <q-item-section>Grant</q-item-section>
+                                </q-item>
+                            </q-list>
+                        </q-menu>
+                    </q-btn>
+                </q-toolbar>
+            </q-header>
 
-        <a id="partners"></a>
-        <section>
-            <div class="Container_container__2RP38">
-                <div class="Partners_title__1b6r9">Partners</div>
-                <ul class="Partners_list__1bnuT">
-                    <li class="Partners_item__im7IY">
-                        <img src="static/hashkey.6c7f8da8.svg"
-                             alt="hashkey">
-                    </li>
-                    <li class="Partners_item__im7IY">
-                        <img src="img/dorahacks-logo.png"
-                             style="background-size: cover;width: 100%;"
-                             alt="dorahacks">
-                    </li>
-                    <li class="Partners_item__im7IY">
-                        <img src="img/inncube-logo.png"
-                             style="background-size: cover;height: 100%;"
-                             alt="inncube">
-                    </li>
+            <q-page-container>
+                <main class="dnft-main">
+                    <section class="dnft-p1">
+                        <p class="intro">
+                            A decentralized NFT and Game center powering cross
+                            </br>
+                            blockchain applications for Polkadot & substrate
+                            </br>
+                            Ecosystem
+                        </p>
+                        <p class="short">Safety, openness and technology</p>
+                    </section>
+                    <section class="dnft-p2">
+                        <p class="intro">1 dUSD(DNFT Dollar on MainNet) = 1 US Dollar</p>
+                        <p class="short">Your New Start for Crypto NFT&Game World</p>
+                    </section>
+                    <section class="dnft-p3 dnft-p-short">
+                        <a id="what-is-dnft"></a>
+                        <p class="intro">What is DNFT?</p>
+                        <p class="short">Dnft is a cross chain decentralized NFT asset network based on substance, which is committed to building a new generation of NFT protocol.</p>
+                        <div class="row q-col-gutter-md q-py-xl">
+                            <div class="col-12 col-md-6">
+                                <div class="dnft-card">
+                                    <img src="img/p3-1.png">
+                                    <div class="dntf-card-txt">
+                                        <span class="intro">DOT for DNFT</span>
+                                        <q-separator class="card-sep"></q-separator>
+                                        <span class="short">Stake DOTs for dUSD.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="dnft-card">
+                                    <img src="img/p3-2.png">
+                                    <div class="dntf-card-txt">
+                                        <span class="intro">DAO for DNFT</span>
+                                        <q-separator class="card-sep"></q-separator>
+                                        <span class="short">DNF holders will become part of DNFT DAO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="dnft-card">
+                                    <img src="img/p3-3.png">
+                                    <div class="dntf-card-txt">
+                                        <span class="intro">Defi for DNFT</span>
+                                        <q-separator class="card-sep"></q-separator>
+                                        <span class="short">Let Defi accelerate the ecosystem of NFT and Game</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="dnft-card">
+                                    <img src="img/p3-4.png">
+                                    <div class="dntf-card-txt">
+                                        <span class="intro">Decentralise for DNFT</span>
+                                        <q-separator class="card-sep"></q-separator>
+                                        <span class="short">A new decentralise platform for NFT and Game.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="dnft-p4 dnft-p-short q-py-xl">
+                        <a id="Applications"></a>
+                        <p class="dnft-h2" title="Applications"></p>
+                        <div class="row wrap q-mt-xl">
+                            <div class="col-12 col-md-6">
+                                <q-list class="text-left q-gutter-y-md">
+                                    <q-item>
+                                        <q-item-section avatar>
+                                            <img src="./img/p4-1.png" alt="p4">
+                                        </q-item-section>
+                                        <q-item-section>
+                                            <q-item-label class="dnft-p6-info">Borrow</q-item-label>
+                                            <q-item-label class="dnft-p6-short">Borrow dUSD with your spare token assets</q-item-label>
+                                        </q-item-section>
+                                    </q-item>
+                                    <q-item>
+                                        <q-item-section avatar>
+                                            <img src="./img/p4-2.png" alt="p4">
+                                        </q-item-section>
+                                        <q-item-section>
+                                            <q-item-label class="dnft-p6-info">Build</q-item-label>
+                                            <q-item-label class="dnft-p6-short">Build your first NFT with DNFT Protocol</q-item-label>
+                                        </q-item-section>
+                                    </q-item>
+                                    <q-item>
+                                        <q-item-section avatar>
+                                            <img src="./img/p4-3.png" alt="p4">
+                                        </q-item-section>
+                                        <q-item-section>
+                                            <q-item-label class="dnft-p6-info">Trade</q-item-label>
+                                            <q-item-label class="dnft-p6-short">Trade your token & NFT assets on decentralized exchange</q-item-label>
+                                        </q-item-section>
+                                    </q-item>
+                                    <q-item>
+                                        <q-item-section avatar>
+                                            <img src="./img/p4-4.png" alt="p4">
+                                        </q-item-section>
+                                        <q-item-section>
+                                            <q-item-label class="dnft-p6-info">Game</q-item-label>
+                                            <q-item-label class="dnft-p6-short">enjoy your game time with DNFT Protocol</q-item-label>
+                                        </q-item-section>
+                                    </q-item>
+                                </q-list>
+                            </div>
+                            <div class="col-12 col-md-6 q-pa-md">
+                                <img class="full-width" src="img/p4-bg.png">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="dnft-p5 dnft-p-short q-py-xl">
+                        <a id="roadmap"></a>
+                        <p class="dnft-h2" title="Roadmap"></p>
+                        <div class="q-py-lg">
+                            <q-timeline layout="loose" color="secondary">
+                                <q-timeline-entry subtitle="2021" side="left">
+                                    <div class="dnft-card">
+                                        <div class="dntf-card-txt">
+                                            <p class="intro">2021</p>
+                                            <q-separator class="card-sep"></q-separator>
+                                            <ul class="short">
+                                                <li>Implement EVM and smart contract</li>
+                                                <li>Launch DNFT at kusA</li>
+                                                <li>Implement EVM and smart contract</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </q-timeline-entry>
 
-                    <li class="Partners_item__im7IY"><img src="static/web3-foundation.1a2b4868.svg"
-                                                          alt="web3Foundation"></li>
+                                <q-timeline-entry subtitle="2020" side="right">
+                                    <div class="dnft-card">
+                                        <div class="dntf-card-txt">
+                                            <p class="intro">2020</p>
+                                            <q-separator class="card-sep"></q-separator>
+                                            <ul class="short">
+                                                <li>Startup code complete</li>
+                                                <li>Launched on the Polkadot test network Rococo</li>
+                                                <li>Safety audit / economic audit</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </q-timeline-entry>
 
-                    <li class="Partners_item__im7IY"><img src="static/w.b829573d.svg" alt="web3Capital">
-                    </li>
+                                <q-timeline-entry subtitle="2019" side="left">
+                                    <div class="dnft-card">
+                                        <div class="dntf-card-txt">
+                                            <p class="intro">2019</p>
+                                            <q-separator class="card-sep"></q-separator>
+                                            <ul class="short">
+                                                <li>DNFT Incorporated</li>
+                                                <li>Development Kick-off</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </q-timeline-entry>
+                            </q-timeline>
+                        </div>
+                    </section>
+                    <section class="dnft-p6 dnft-p-short q-py-xl">
+                        <a id="partners"></a>
+                        <p class="dnft-h2" title="Cooperative partner"></p>
+                        <div class="row q-col-gutter-md q-py-xl">
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c1.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c2.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c3.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c4.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c5.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c6.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c7.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c8.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c9.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c10.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c11.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="full-width" src="./img/coop/c12.png" alt="coop">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="dnft-p7 dnft-p-short q-py-xl">
+                        <a id="join-us"></a>
+                        <p class="dnft-h2" title="Join us"></p>
+                        <div class="row q-col-gutter-md q-py-xl">
+                            <div class="col-12 col-md-4">
+                                <div class="dnft-card">
+                                    <div class="dntf-card-txt">
+                                        <p class="intro">Dmember</p>
+                                        <q-separator class="card-sep"></q-separator>
+                                        <p class="short">To become a member of dnft team, to govern together and to develop an open, transparent and stable financial platform.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="dnft-card">
+                                    <div class="dntf-card-txt">
+                                        <span class="intro">partner</span>
+                                        <q-separator class="card-sep"></q-separator>
+                                        <span class="short">Work and build with dnft team members to integrate ACALA stable coin into your products and services.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="dnft-card">
+                                    <div class="dntf-card-txt">
+                                        <span class="intro">investor</span>
+                                        <q-separator class="card-sep"></q-separator>
+                                        <span class="short">Talk to us about investing in the dnft team's venture portfolio.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="dnft-p8 dnft-p-short q-py-xl">
+                        <a id="grant"></a>
+                        <p class="dnft-h2" title="NFT & Game Grant"></p>
+                        <p class="field">
+                            DNFT protocol encourages NFT and game projects to join the DNFT protocol ecosystem, which will open when the main network is officially launched。
+                            We will provide:
+                            - A grants bouns pool of 10,000,000 DNF will be provided for the ecosystem dapps & parters.
+                            - Technical training and support
+                            - Discussion on frontier industry knowledge
+                        </p>
+                        <div class="img-wrapper">
+                            <img src="img/bg-p8.svg">
+                        </div>
+                    </section>
+                </main>
+                <!-- place QPageScroller at end of page -->
+                <q-page-scroller
+                        class="back-to-top"
+                        position="bottom-right"
+                        :scroll-offset="150"
+                        :offset="[18, 18]"
+                >
+                    <q-btn fab icon="bt-top02" color="secondary"></q-btn>
+                </q-page-scroller>
+            </q-page-container>
 
-                </ul>
-            </div>
-        </section>
-        <a id="contact"></a>
-        <footer class="Footer_root__2Z_Qw">
-            <div class="Container_container__2RP38 Footer_container__X5hfr">
-                <div><p class="Footer_foundation__1fTbr">DNFT Foundation</p>
-                    <ul class="Footer_links__1QT9e">
-                        <li class="Footer_linkItem__2woQB"><p class="Footer_linkItemTitel__33_qy">Resources</p>
-                            <ul class="Footer_linkItemData__2EFQn">
-                                <li><a href="https://github.com/DNFT-Team/DNFT-white-paper"
-                                       class="Footer_linkDataItemLink__gApFg" target="_blank" rel="noopener noreferrer">Whitepaper</a>
-                                </li>
-                                <li><a href="https://github.com/DNFT-Team/"
-                                       class="Footer_linkDataItemLink__gApFg" target="_blank" rel="noopener noreferrer">Documentation</a>
-                                </li>
-                                <li><a href="https://github.com/DNFT-Team/"
-                                       class="Footer_linkDataItemLink__gApFg" target="_blank" rel="noopener noreferrer">Developer
-                                    Tools</a>
-                                </li>
-
-                            </ul>
-                        </li>
-                        <li class="Footer_linkItem__2woQB"><p class="Footer_linkItemTitel__33_qy">Ecosystem Grants</p>
-                            <ul class="Footer_linkItemData__2EFQn">
-                                <li><a href="https://dnft.world/#" class="Footer_linkDataItemLink__gApFg"
-                                       target="_blank" rel="noopener noreferrer">NFT Grant</a></li>
-                                <li><a href="https://dnft.world/#"
-                                       class="Footer_linkDataItemLink__gApFg" target="_blank" rel="noopener noreferrer">Game
-                                    Grant</a>
-                                </li>
-
-                            </ul>
-                        </li>
-                        <li class="Footer_linkItem__2woQB"><p class="Footer_linkItemTitel__33_qy">Foundation</p>
-                            <ul class="Footer_linkItemData__2EFQn">
-                                <li><a href="https://dnft.world/" class="Footer_linkDataItemLink__gApFg"
-                                       target="_blank" rel="noopener noreferrer">About</a></li>
-                                <li><a href="mailto:hello@dnft.world" class="Footer_linkDataItemLink__gApFg"
-                                       target="_blank" rel="noopener noreferrer">Contact</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- <div><p class="Footer_newsletter__3FBx3">Newsletter</p>
-                    <div id="form" class="Footer_form__3Gm2f">
-                        <iframe id="hs-form-iframe-0" class="hs-form-iframe" scrolling="no" height="102" width="300"
-                                style="position: static; border: none; display: block; overflow: hidden; width: 300px; height: 102px;"
-                                src="static/saved_resource.html"></iframe>
+            <q-footer reveal class="dnft-foot bg-transparent q-pt-sm">
+                <q-toolbar class="dntf-ff">
+                    <q-avatar>
+                        <img src="img/dnftLogo.svg">
+                    </q-avatar>
+                    <q-space></q-space>
+                    <div class="row q-gutter-x-md">
+                        <q-btn type="a" href="https://github.com/DNFT-Team/" target="_blank" flat round dense color="grey" size="sm" icon="bt-github"></q-btn>
+                        <q-btn flat round dense color="grey" size="sm" icon="bt-telegram"></q-btn>
+                        <q-btn flat round dense color="grey" size="sm" icon="bt-linkedin"></q-btn>
+                        <q-btn flat round dense color="grey" size="sm" icon="bt-twitter"></q-btn>
+                        <q-btn flat round dense color="grey" size="sm" icon="bt-facebook"></q-btn>
                     </div>
-                    <ul class="Footer_socialMedia__20Z-u">
-                        <li class="Footer_socialMediaItem__3rEl4"><a href="https://twitter.com/AcalaNetwork"
-                                                                     target="_blank" rel="noopener noreferrer"><img
-                                src="static/twitter.2e7678de.svg" alt="https://twitter.com/AcalaNetwork"
-                                class="Footer_socialMediaIcon__2JZvM"></a></li> -->
-                <!-- <li class="Footer_socialMediaItem__3rEl4"><a href="https://medium.com/acalanetwork"
-                                                             target="_blank" rel="noopener noreferrer"><img
-                        src="static/medium.1ab912f9.svg" alt="https://medium.com/acalanetwork"
-                        class="Footer_socialMediaIcon__2JZvM"></a></li> -->
-                <!-- <li class="Footer_socialMediaItem__3rEl4"><a href="https://github.com/DNFT-Team"
-                                                             target="_blank" rel="noopener noreferrer"><img
-                        src="static/github.f2a8110d.svg" alt="https://github.com/DNFT-Team"
-                        class="Footer_socialMediaIcon__2JZvM"></a></li> -->
-                <!-- <li class="Footer_socialMediaItem__3rEl4"><a
-                        href="https://www.linkedin.com/company/acalanetwork" target="_blank"
-                        rel="noopener noreferrer"><img src="static/linkedin.4d2ce837.svg"
-                                                       alt="https://www.linkedin.com/company/acalanetwork"
-                                                       class="Footer_socialMediaIcon__2JZvM"></a></li>
-                <li class="Footer_socialMediaItem__3rEl4"><a href="https://acala.discourse.group/"
-                                                             target="_blank" rel="noopener noreferrer"><img
-                        src="static/discourse.e36e5ca6.svg" alt="https://acala.discourse.group"
-                        class="Footer_socialMediaIcon__2JZvM"></a></li>
-                <li class="Footer_socialMediaItem__3rEl4"><a href="https://discord.gg/6QHVY4X" target="_blank"
-                                                             rel="noopener noreferrer"><img
-                        src="static/discord.53b9cd9b.svg" alt="https://discord.gg/6QHVY4X"
-                        class="Footer_socialMediaIcon__2JZvM"></a></li>
-                <li class="Footer_socialMediaItem__3rEl4"><a href="https://t.me/acalaofficial" target="_blank"
-                                                             rel="noopener noreferrer"><img
-                        src="static/telegram.f7e100d9.svg" alt="https://t.me/acalaofficial"
-                        class="Footer_socialMediaIcon__2JZvM"></a></li>
-                <li class="Footer_socialMediaItem__3rEl4">
-                    <div><img src="static/wechat.76303298.svg" alt=""
-                              class="Footer_socialMediaIcon__2JZvM"><img
-                            src="static/wechat-qrcode.82799a5e.jpg" alt=""
-                            class="Footer_socialMediaItemImg__3BQgI"></div>
-                </li> -->
-<!--                </ul>-->
-<!--            </div>-->
+                </q-toolbar>
+                <p class="text-center dnft-rights">Copyright © 2021 DNFT</p>
+            </q-footer>
+
+        </q-layout>
     </div>
-    </footer>
-</div>
-</div>
-<script>function gtag() {
-    dataLayer.push(arguments)
-}
+    <script>
+        window.quasarConfig = {
+            brand: {
+                primary: '#0c1c4c',
+                secondary: '#e46262',
+            }
+        }
+    </script>
 
-window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-154629455-1")</script>
-<script src="static/runtime-index.4c4d985d.js"></script>
-<script src="static/2.6b820015.chunk.js"></script>
-<!--<script src="static/index.3eb75212.chunk.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/quasar@1.15.1/dist/quasar.ie.polyfills.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@^2.0.0/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quasar@1.15.1/dist/quasar.umd.modern.min.js"></script>
+
+    <script>
+        /*
+          Example kicking off the UI. Obviously, adapt this to your specific needs.
+          Assumes you have a <div id="q-app"></div> in your <body> above
+         */
+        new Vue({
+            el: '#q-app',
+            data: function () {
+                return {}
+            },
+            methods: {},
+            // ...etc
+        })
+    </script>
 </body>
 </html>
