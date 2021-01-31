@@ -1,0 +1,205 @@
+/*html {*/
+/*    font-size : 8px;*/
+/*}*/
+/*@media only screen and (min-width: 401px){*/
+/*    html {*/
+/*        font-size: 25px !important;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 428px){*/
+/*    html {*/
+/*        font-size: 26.75px !important;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 481px){*/
+/*    html {*/
+/*        font-size: 30px !important;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 569px){*/
+/*    html {*/
+/*        font-size: 35px !important;*/
+/*    }*/
+/*}*/
+/*@media only screen and (min-width: 641px){*/
+/*    html {*/
+/*        font-size: 14px !important;*/
+/*    }*/
+/*}*/
+
+body{
+    background: #0c1c4c url("/img/allBg.png");
+    background-repeat-x: no-repeat;
+}
+p{
+    margin: 0 !important;
+}
+#app{
+    color: #ffffff;
+}
+.dnft-rights,
+.dnft-head{
+    background-image: linear-gradient(-40deg, #122865 0%, #1E3574 100%);
+}
+.dnft-p-short,
+.dnft-hh,
+.dntf-ff{
+    width: 70vw;
+    margin: 0 auto;
+}
+.dnft-main{
+    text-align: center;
+}
+.dnft-p1{
+    height: 60rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    background: url("../public/img/headBg.png");
+}
+.dnft-p1 .intro{
+    font-size: 36px;
+    letter-spacing: 0.86px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+.dnft-p1 .short{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    text-transform:capitalize
+}
+.dnft-p2{
+    min-height: 128px;
+    padding: 1rem 0;
+    background-image: linear-gradient(-40deg, #122865 0%, #1E3574 100%);
+}
+.dnft-p2 .intro{
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0.95px;
+}
+.dnft-p2 .short{
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.48px;
+}
+.dnft-p3{
+    padding: 3rem 0;
+}
+.dnft-p3 .intro{
+    font-size: 36px;
+    letter-spacing: 0.86px;
+}
+.dnft-p3 .short{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.dnft-card{
+    padding: 3rem 0;
+    min-height: 251px;
+    height: 251px;
+    background-image: linear-gradient(-40deg, #333E80 0%, #415D95 100%);
+    border-radius: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dnft-p5 .dnft-card{
+    height: max-content;
+}
+.dnft-p5 .short{
+    padding: 0;
+}
+.dnft-p6 img:hover,
+.dnft-card:hover{
+transition: .2s ease;
+filter: brightness(1.2) contrast(1.1) drop-shadow(2px 4px 6px #333E80);
+}
+.dnft-card img{
+height: 100%;
+}
+.dntf-card-txt{
+display: flex;
+flex-flow: column;
+padding: 0 3rem;
+justify-content: space-around;
+align-items: flex-start;
+text-align: left;
+height: 100%;
+width: 100%;
+text-transform:capitalize
+}
+.card-sep{
+    width: 70%;
+    margin: 1rem 0;
+}
+.dntf-card-txt .intro{
+font-size: 36px;
+letter-spacing: 1.05px;
+line-height: 36px;
+}
+.dntf-card-txt .short{
+font-size: 16px;
+letter-spacing: 0.5px;
+line-height: 23px;
+}
+
+.dnft-h2{
+position: relative;
+height: 147px;
+}
+.dnft-h2::after{
+content:attr(title);
+position: absolute;
+font-size: 36px;
+letter-spacing: 1.2px;
+line-height: 43px;
+z-index: 2;
+left: 50%;
+transform: translateX(-50%);
+bottom: 0;
+}
+.dnft-h2::before{
+content:attr(title);
+position: absolute;
+opacity: 0.04;
+font-size: 80px;
+z-index: 1;
+top: 0;
+transform: translateX(-50%);
+left: 50%;
+}
+
+.dnft-p6-short{
+font-size: 16px;
+letter-spacing: 0.5px;
+line-height: 23px;
+}
+.dnft-p6-info{
+font-size: 36px;
+letter-spacing: 1.05px;
+line-height: 27px;
+}
+
+.dnft-p8 .field{
+white-space: pre-line;
+text-align: left;
+font-size: 24px;
+line-height: 43px;
+}
+.img-wrapper img{
+width: 50%;
+margin-left: 50%;
+}
+
+.dnft-rights{
+font-size: 16px;
+letter-spacing: 0.5px;
+text-align: center;
+line-height: 23px;
+}

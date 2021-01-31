@@ -1,0 +1,58 @@
+{
+  "id": "2358204",
+  "name": "dnft-landpage",
+  "font_family": "bt",
+  "css_prefix_text": "bt-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "593026",
+      "name": "top02",
+      "font_class": "top02",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "1244200",
+      "name": "linkedin",
+      "font_class": "linkedin",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "1445417",
+      "name": "telegram",
+      "font_class": "telegram",
+      "unicode": "e8db",
+      "unicode_decimal": 59611
+    },
+    {
+      "icon_id": "11993550",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e7b1",
+      "unicode_decimal": 59313
+    },
+    {
+      "icon_id": "16880989",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "18018929",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "19744743",
+      "name": "dnftLogo",
+      "font_class": "dnftLogo",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

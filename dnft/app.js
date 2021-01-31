@@ -10,7 +10,7 @@ app.use(compression())
 app.use(express.static(path.join(__dirname, 'dist')))
 
 //  定义端口
-const port = 8001
+const port = 8081
 //  启动网络服务监听
 app.listen(port, () => {
     console.log(`App listening at port ${port}`)
