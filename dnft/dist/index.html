@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>DNFT</title>
     <link rel="icon" href="./img/dnftLogo.png" />
-    <link href="https://cdn.jsdelivr.net/npm/animate.css@^4.0.0/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/quasar@1.15.1/dist/quasar.min.css" rel="stylesheet" type="text/css">
+    <link href="./plugin/animate.css" rel="stylesheet" type="text/css">
+    <link href="./plugin/quasar.min.css" rel="stylesheet" type="text/css">
     <link href="./font/iconfont.css" rel="stylesheet" type="text/css">
     <link href="./index.css" rel="stylesheet" type="text/css">
 </head>
@@ -367,23 +367,16 @@
         }
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/quasar@1.15.1/dist/quasar.ie.polyfills.umd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@^2.0.0/dist/vue.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/quasar@1.15.1/dist/quasar.umd.modern.min.js"></script>
+    <script src="./plugin/quasar.utils.js"></script>
+    <script src="./plugin/vue.min.js"></script>
+    <script src="./plugin/quasar.js"></script>
 
     <script>
         /*
           Example kicking off the UI. Obviously, adapt this to your specific needs.
           Assumes you have a <div id="q-app"></div> in your <body> above
          */
-        new Vue({
-            el: '#q-app',
-            data: function () {
-                return {}
-            },
-            methods: {},
-            // ...etc
-        })
+        new Vue({ el: '#q-app' })
     </script>
 </body>
 </html>

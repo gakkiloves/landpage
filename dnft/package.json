@@ -1,0 +1,14 @@
+{
+    "name": "dnft-landpage",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "pm2": "pm2 start app.js --name 'DNFT.World'"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "express": "^4.17.1",
+        "path": "^0.12.7",
+        "compression": "^1.7.4"
+    }
+}
