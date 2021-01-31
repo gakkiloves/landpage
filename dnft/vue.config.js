@@ -4,6 +4,9 @@ const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin')
 
 module.exports = {
     outputDir: 'dist',
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/landpage/dnft/dist/'
+        : '/',
     devServer: {
         port: 8081,
         open: true
