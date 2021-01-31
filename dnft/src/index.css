@@ -28,7 +28,7 @@
 /*}*/
 
 body{
-    background: #0c1c4c url("/img/allBg.png");
+    background: #0c1c4c url("../public/img/allBg.png");
     background-repeat-x: no-repeat;
 }
 p{
