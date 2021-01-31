@@ -6,7 +6,7 @@
                 <q-toolbar class="dnft-hh">
                     <q-toolbar-title v-show="!$q.screen.lt.sm">
                         <q-avatar>
-                            <img src="../public/img/dnftLogo.svg">
+                            <img src="/img/dnftLogo.svg">
                         </q-avatar>
                         DNFT.world
                     </q-toolbar-title>
@@ -81,7 +81,7 @@
                         <div class="row q-col-gutter-md q-py-xl">
                             <div class="col-12 col-md-6">
                                 <div class="dnft-card">
-                                    <img src="../public/img/p3-1.png">
+                                    <img src="img/p3-1.png">
                                     <div class="dntf-card-txt">
                                         <span class="intro">DOT for DNFT</span>
                                         <q-separator class="card-sep"></q-separator>
@@ -91,7 +91,7 @@
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="dnft-card">
-                                    <img src="../public/img/p3-2.png">
+                                    <img src="img/p3-2.png">
                                     <div class="dntf-card-txt">
                                         <span class="intro">DAO for DNFT</span>
                                         <q-separator class="card-sep"></q-separator>
@@ -101,7 +101,7 @@
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="dnft-card">
-                                    <img src="../public/img/p3-3.png">
+                                    <img src="/img/p3-3.png">
                                     <div class="dntf-card-txt">
                                         <span class="intro">Defi for DNFT</span>
                                         <q-separator class="card-sep"></q-separator>
@@ -111,7 +111,7 @@
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="dnft-card">
-                                    <img src="../public/img/p3-4.png">
+                                    <img src="/img/p3-4.png">
                                     <div class="dntf-card-txt">
                                         <span class="intro">Decentralise for DNFT</span>
                                         <q-separator class="card-sep"></q-separator>
@@ -129,7 +129,7 @@
                                 <q-list class="text-left q-gutter-y-md">
                                     <q-item>
                                         <q-item-section avatar>
-                                            <img src="../public/img/p4-1.png" alt="p4">
+                                            <img src="/img/p4-1.png" alt="p4">
                                         </q-item-section>
                                         <q-item-section>
                                             <q-item-label class="dnft-p6-info">Borrow</q-item-label>
@@ -138,7 +138,7 @@
                                     </q-item>
                                     <q-item>
                                         <q-item-section avatar>
-                                            <img src="../public/img/p4-2.png" alt="p4">
+                                            <img src="/img/p4-2.png" alt="p4">
                                         </q-item-section>
                                         <q-item-section>
                                             <q-item-label class="dnft-p6-info">Build</q-item-label>
@@ -147,7 +147,7 @@
                                     </q-item>
                                     <q-item>
                                         <q-item-section avatar>
-                                            <img src="../public/img/p4-3.png" alt="p4">
+                                            <img src="/img/p4-3.png" alt="p4">
                                         </q-item-section>
                                         <q-item-section>
                                             <q-item-label class="dnft-p6-info">Trade</q-item-label>
@@ -156,7 +156,7 @@
                                     </q-item>
                                     <q-item>
                                         <q-item-section avatar>
-                                            <img src="../public/img/p4-4.png" alt="p4">
+                                            <img src="/img/p4-4.png" alt="p4">
                                         </q-item-section>
                                         <q-item-section>
                                             <q-item-label class="dnft-p6-info">Game</q-item-label>
@@ -166,7 +166,7 @@
                                 </q-list>
                             </div>
                             <div class="col-12 col-md-6 q-pa-md">
-                                <img class="full-width" src="../public/img/p4-bg.png">
+                                <img class="full-width" src="/img/p4-bg.png">
                             </div>
                         </div>
                     </section>
@@ -223,40 +223,40 @@
                         <p class="dnft-h2" title="Cooperative partner"></p>
                         <div class="row q-col-gutter-md q-py-xl">
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c1.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c1.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c2.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c2.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c3.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c3.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c4.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c4.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c5.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c5.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c6.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c6.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c7.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c7.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c8.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c8.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c9.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c9.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c10.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c10.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c11.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c11.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="../public/img/coop/c12.png" alt="coop">
+                                <img class="full-width" src="/img/coop/c12.png" alt="coop">
                             </div>
                         </div>
                     </section>
@@ -304,7 +304,7 @@
                             - Discussion on frontier industry knowledge
                         </p>
                         <div class="img-wrapper">
-                            <img src="../public/img/bg-p8.svg">
+                            <img src="/img/bg-p8.svg">
                         </div>
                     </section>
                 </main>
@@ -322,7 +322,7 @@
             <q-footer reveal class="dnft-foot bg-transparent q-pt-sm">
                 <q-toolbar class="dntf-ff">
                     <q-avatar>
-                        <img src="../public/img/dnftLogo.svg">
+                        <img src="/img/dnftLogo.svg">
                     </q-avatar>
                     <q-space></q-space>
                     <div class="row q-gutter-x-md">

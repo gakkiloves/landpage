@@ -57,7 +57,9 @@ p{
     align-items: center;
     flex-flow: column;
     justify-content: center;
-    background: url("../public/img/headBg.png");
+    background: url(/img/headBg.png);
+    background-repeat-x: no-repeat;
+    background-attachment: fixed;
 }
 .dnft-p1 .intro{
     font-size: 36px;
