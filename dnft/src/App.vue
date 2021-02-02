@@ -16,44 +16,44 @@
                                 <q-item tag="a" clickable href="https://github.com/DNFT-Team/DNFT-white-paper" target="_blank">
                                     <q-item-section>Whitepaper</q-item-section>
                                 </q-item>
-                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">
-                                    <q-item-section>Documentation</q-item-section>
-                                </q-item>
-                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">
-                                    <q-item-section>Developer Tools</q-item-section>
-                                </q-item>
+<!--                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">-->
+<!--                                    <q-item-section>Documentation</q-item-section>-->
+<!--                                </q-item>-->
+<!--                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">-->
+<!--                                    <q-item-section>Developer Tools</q-item-section>-->
+<!--                                </q-item>-->
                             </q-list>
                         </q-menu>
                     </q-btn>
                     <q-btn flat label="Products">
-                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
-                            <q-list seperater style="min-width: 100px">
-                                <q-item tag="a" clickable href="https://dnft.world/index.html#what-is-dnft">
-                                    <q-item-section>What is DNFT</q-item-section>
-                                </q-item>
-                                <q-item tag="a" clickable href="https://dnft.world/index.html#Applications">
-                                    <q-item-section>Applications</q-item-section>
-                                </q-item>
-                                <q-item tag="a" clickable href="https://dnft.world/index.html#roadmap">
-                                    <q-item-section>Roadmap</q-item-section>
-                                </q-item>
-                            </q-list>
-                        </q-menu>
+<!--                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">-->
+<!--                            <q-list seperater style="min-width: 100px">-->
+<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#what-is-dnft">-->
+<!--                                    <q-item-section>What is DNFT</q-item-section>-->
+<!--                                </q-item>-->
+<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#Applications">-->
+<!--                                    <q-item-section>Applications</q-item-section>-->
+<!--                                </q-item>-->
+<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#roadmap">-->
+<!--                                    <q-item-section>Roadmap</q-item-section>-->
+<!--                                </q-item>-->
+<!--                            </q-list>-->
+<!--                        </q-menu>-->
                     </q-btn>
                     <q-btn flat label="Foundation">
-                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
-                            <q-list seperater style="min-width: 100px">
-                                <q-item tag="a" clickable href="https://dnft.world/index.html#partners">
-                                    <q-item-section>Partners</q-item-section>
-                                </q-item>
-                                <q-item tag="a" clickable href="https://dnft.world/index.html#join-us">
-                                    <q-item-section>Join us</q-item-section>
-                                </q-item>
-                                <q-item tag="a" clickable href="https://dnft.world/index.html#grant">
-                                    <q-item-section>Grant</q-item-section>
-                                </q-item>
-                            </q-list>
-                        </q-menu>
+<!--                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">-->
+<!--                            <q-list seperater style="min-width: 100px">-->
+<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#partners">-->
+<!--                                    <q-item-section>Partners</q-item-section>-->
+<!--                                </q-item>-->
+<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#join-us">-->
+<!--                                    <q-item-section>Join us</q-item-section>-->
+<!--                                </q-item>-->
+<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#grant">-->
+<!--                                    <q-item-section>Grant</q-item-section>-->
+<!--                                </q-item>-->
+<!--                            </q-list>-->
+<!--                        </q-menu>-->
                     </q-btn>
                 </q-toolbar>
             </q-header>
@@ -63,9 +63,9 @@
                     <section class="dnft-p1">
                         <p class="intro">
                             A decentralized NFT and Game center powering cross
-                            </br>
+                            <br>
                             blockchain applications for Polkadot & substrate
-                            </br>
+                            <br>
                             Ecosystem
                         </p>
                         <p class="short">Safety, openness and technology</p>
@@ -248,10 +248,25 @@
                         <p class="dnft-h2" title="Cooperative partner"></p>
                         <div class="row q-col-gutter-md q-py-xl">
                             <div class="col-6 col-md-3 coop-item">
-                                <img src="img/coop/dorahacks-logo.png" alt="coop">
+                                <img src="img/coop/web3.svg" alt="coop">
                             </div>
                             <div class="col-6 col-md-3 coop-item">
-                                <img src="img/coop/inncube-logo.png" alt="coop">
+                                <img src="img/coop/web3Foundation.svg" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3 coop-item">
+                                <img src="img/coop/hashkey.svg" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3 coop-item">
+                                <img src="img/coop/filecoin.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3 coop-item">
+                                <img src="img/coop/dorahacks.webp" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3 coop-item">
+                                <img src="img/coop/Innlogo.png" alt="coop">
+                            </div>
+                            <div class="col-6 col-md-3 coop-item">
+                                <img src="img/coop/acala.svg" alt="coop" style="height: 70%;">
                             </div>
                         </div>
                     </section>
@@ -322,10 +337,10 @@
                     <q-space></q-space>
                     <div class="row q-gutter-x-md">
                         <q-btn type="a" href="https://github.com/DNFT-Team/" target="_blank" flat round dense color="grey" size="sm" icon="bt-github"></q-btn>
-                        <q-btn flat round dense color="grey" size="sm" icon="bt-telegram"></q-btn>
-                        <q-btn flat round dense color="grey" size="sm" icon="bt-linkedin"></q-btn>
-                        <q-btn flat round dense color="grey" size="sm" icon="bt-twitter"></q-btn>
-                        <q-btn flat round dense color="grey" size="sm" icon="bt-facebook"></q-btn>
+                        <q-btn type="a" href="https://twitter.com/_DNFT_" target="_blank"  flat round dense color="grey" size="sm" icon="bt-twitter"></q-btn>
+<!--                        <q-btn flat round dense color="grey" size="sm" icon="bt-telegram"></q-btn>-->
+<!--                        <q-btn flat round dense color="grey" size="sm" icon="bt-linkedin"></q-btn>-->
+<!--                        <q-btn flat round dense color="grey" size="sm" icon="bt-facebook"></q-btn>-->
                     </div>
                 </q-toolbar>
                 <p class="text-center dnft-rights">Copyright © 2021 DNFT</p>

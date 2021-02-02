@@ -185,13 +185,14 @@ line-height: 1.93rem;
     line-height: 3.07rem;
 }
 .img-wrapper img{
-width: 50%;
-margin-left: 50%;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 2rem;
 }
 
 .dnft-rights{
-font-size: 1.14rem;
-letter-spacing: 0.04rem;
-text-align: center;
-line-height: 1.64rem;
+    font-size: 1.14rem;
+    letter-spacing: 0.04rem;
+    text-align: center;
+    line-height: 1.64rem;
 }
