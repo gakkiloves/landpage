@@ -21,8 +21,18 @@ p{
 .dnft-head{
     background-image: linear-gradient(-40deg, #122865 0%, #1E3574 100%);
 }
+
+.dnft-hh{
+    width: 100vw;
+}
+@media only screen and (min-width: 641px){
+    .dnft-hh {
+        width: 70vw;
+        margin: 0 auto;
+    }
+}
+
 .dnft-p-short,
-.dnft-hh,
 .dntf-ff{
     width: 70vw;
     margin: 0 auto;
