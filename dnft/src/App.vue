@@ -8,7 +8,7 @@
                         <q-avatar>
                             <img src="img/dnftLogo.svg">
                         </q-avatar>
-                        <span v-show="!$q.screen.lt.sm">DNFT.world</span>
+                        <span v-show="!$q.screen.lt.sm"> DNFT.world</span>
                     </q-toolbar-title>
                     <q-btn flat label="Resource">
                         <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
@@ -260,10 +260,10 @@
                                 <img src="img/coop/filecoin.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3 coop-item">
-                                <img src="img/coop/dorahacks.webp" alt="coop">
+                                <img src="img/coop/dorahacks-logo.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3 coop-item">
-                                <img src="img/coop/Innlogo.png" alt="coop" style="opacity: .8;">
+                                <img src="img/coop/Innlogo.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3 coop-item">
                                 <img src="img/coop/acala.svg" alt="coop" style="height: 70%;">
@@ -307,9 +307,9 @@
                         <a id="grant"></a>
                         <p class="dnft-h2" title="NFT & Game Grant"></p>
                         <p class="field">
-                            DNFT protocol encourages NFT and game projects to join the DNFT protocol ecosystem, which will open when the main network is officially launched。
+                            DNFT protocol encourages NFT and game projects to join the DNFT protocol ecosystem, which will open when the main network is officially launched.<br>
                             We will provide:<br>
-                            - A grants bouns pool of 10,000,000 DNF will be provided for the ecosystem dapps & parters.<br>
+                            - A grants bouns pool of 10,000,000 DNF will be provided for the ecosystem dapps & parters<br>
                             - Technical training and support<br>
                             - Discussion on frontier industry knowledge<br>
                         </p>

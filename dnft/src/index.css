@@ -186,6 +186,7 @@ line-height: 1.93rem;
 .dnft-p6 img{
     width: 80%;
     margin: 0 auto;
+    filter: opacity(0.5);
 }
 
 .dnft-p8 .field{
