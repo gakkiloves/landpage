@@ -175,38 +175,63 @@
                         <p class="dnft-h2" title="Roadmap"></p>
                         <div class="q-py-lg">
                             <q-timeline layout="loose" color="secondary">
-                                <q-timeline-entry subtitle="2021" side="left">
+                                <q-timeline-entry title="Q4" subtitle="2021" side="left">
                                     <div class="dnft-card">
                                         <div class="dntf-card-txt">
-                                            <p class="intro">2021</p>
+                                            <p class="intro">2021.Q4</p>
                                             <q-separator class="card-sep"></q-separator>
                                             <ul class="short">
-                                                <li>Implement EVM and smart contract</li>
-                                                <li>Launch DNFT at kusA</li>
-                                                <li>Implement EVM and smart contract</li>
+                                                <li>DNFT NFT&Game Grant Lanch</li>
+                                                <li>NFT&Game APP Development Support</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </q-timeline-entry>
 
-                                <q-timeline-entry subtitle="2020" side="right">
+                                <q-timeline-entry title="Q3" subtitle="2021"  side="right">
                                     <div class="dnft-card">
                                         <div class="dntf-card-txt">
-                                            <p class="intro">2020</p>
+                                            <p class="intro">2021.Q3</p>
                                             <q-separator class="card-sep"></q-separator>
                                             <ul class="short">
-                                                <li>Startup code complete</li>
-                                                <li>Launched on the Polkadot test network Rococo</li>
-                                                <li>Safety audit / economic audit</li>
+                                                <li>Launch-Code Complete</li>
+                                                <li>Security Aduit/Economic Audit</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </q-timeline-entry>
 
-                                <q-timeline-entry subtitle="2019" side="left">
+                                <q-timeline-entry title="Q2" subtitle="2021" side="left">
                                     <div class="dnft-card">
                                         <div class="dntf-card-txt">
-                                            <p class="intro">2019</p>
+                                            <p class="intro">2021.Q2</p>
+                                            <q-separator class="card-sep"></q-separator>
+                                            <ul class="short">
+                                                <li>Launch DNFT Testnet</li>
+                                                <li>Launch DNFT on Kusama</li>
+                                                <li>Launch DNFT on Polkadot</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </q-timeline-entry>
+
+                                <q-timeline-entry title="Q1" subtitle="2020" side="right">
+                                    <div class="dnft-card">
+                                        <div class="dntf-card-txt">
+                                            <p class="intro">2021.Q1</p>
+                                            <q-separator class="card-sep"></q-separator>
+                                            <ul class="short">
+                                                <li>Web3 Foundation Grant</li>
+                                                <li>Whitepaper &amp; Economic model</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </q-timeline-entry>
+
+                                <q-timeline-entry title="Q4" subtitle="2020" side="left">
+                                    <div class="dnft-card">
+                                        <div class="dntf-card-txt">
+                                            <p class="intro">2020.Q4</p>
                                             <q-separator class="card-sep"></q-separator>
                                             <ul class="short">
                                                 <li>DNFT Incorporated</li>
@@ -223,40 +248,10 @@
                         <p class="dnft-h2" title="Cooperative partner"></p>
                         <div class="row q-col-gutter-md q-py-xl">
                             <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c1.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c2.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c3.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c4.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c5.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c6.png" alt="coop">
+                                <img class="full-width" src="img/coop/Innlogo.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3">
                                 <img class="full-width" src="img/coop/c7.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c8.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c9.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c10.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c11.png" alt="coop">
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c12.png" alt="coop">
                             </div>
                         </div>
                     </section>
@@ -298,10 +293,10 @@
                         <p class="dnft-h2" title="NFT & Game Grant"></p>
                         <p class="field">
                             DNFT protocol encourages NFT and game projects to join the DNFT protocol ecosystem, which will open when the main network is officially launched。
-                            We will provide:
-                            - A grants bouns pool of 10,000,000 DNF will be provided for the ecosystem dapps & parters.
-                            - Technical training and support
-                            - Discussion on frontier industry knowledge
+                            We will provide:<br>
+                            - A grants bouns pool of 10,000,000 DNF will be provided for the ecosystem dapps & parters.<br>
+                            - Technical training and support<br>
+                            - Discussion on frontier industry knowledge<br>
                         </p>
                         <div class="img-wrapper">
                             <img src="img/bg-p8.svg">
