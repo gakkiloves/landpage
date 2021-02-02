@@ -4,11 +4,11 @@
 
             <q-header class="dnft-head">
                 <q-toolbar class="dnft-hh">
-                    <q-toolbar-title v-show="!$q.screen.lt.sm">
+                    <q-toolbar-title>
                         <q-avatar>
                             <img src="img/dnftLogo.svg">
                         </q-avatar>
-                        DNFT.world
+                        <span v-show="!$q.screen.lt.sm"> DNFT.world</span>
                     </q-toolbar-title>
                     <q-btn flat label="Resource">
                         <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
@@ -77,7 +77,7 @@
                     <section class="dnft-p3 dnft-p-short">
                         <a id="what-is-dnft"></a>
                         <p class="intro">What is DNFT?</p>
-                        <p class="short">Dnft is a cross chain decentralized NFT asset network based on substance, which is committed to building a new generation of NFT protocol.</p>
+                        <p class="short">DNFT is a cross chain decentralized NFT asset network based on substance, which is committed to building a new generation of NFT protocol.</p>
                         <div class="row q-col-gutter-md q-py-xl">
                             <div class="col-12 col-md-6">
                                 <div class="dnft-card">
@@ -260,7 +260,7 @@
                                 <img src="img/coop/filecoin.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3 coop-item">
-                                <img src="img/coop/dorahacks.webp" alt="coop">
+                                <img src="img/coop/dorahacks-logo.png" alt="coop">
                             </div>
                             <div class="col-6 col-md-3 coop-item">
                                 <img src="img/coop/Innlogo.png" alt="coop">
@@ -270,46 +270,46 @@
                             </div>
                         </div>
                     </section>
-                    <section class="dnft-p7 dnft-p-short q-py-xl">
-                        <a id="join-us"></a>
-                        <p class="dnft-h2" title="Join us"></p>
-                        <div class="row q-col-gutter-md q-py-xl">
-                            <div class="col-12 col-md-4">
-                                <div class="dnft-card">
-                                    <div class="dntf-card-txt">
-                                        <p class="intro">Dmember</p>
-                                        <q-separator class="card-sep"></q-separator>
-                                        <p class="short">To become a member of dnft team, to govern together and to develop an open, transparent and stable financial platform.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="dnft-card">
-                                    <div class="dntf-card-txt">
-                                        <span class="intro">partner</span>
-                                        <q-separator class="card-sep"></q-separator>
-                                        <span class="short">Work and build with dnft team members to integrate ACALA stable coin into your products and services.</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="dnft-card">
-                                    <div class="dntf-card-txt">
-                                        <span class="intro">investor</span>
-                                        <q-separator class="card-sep"></q-separator>
-                                        <span class="short">Talk to us about investing in the dnft team's venture portfolio.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+<!--                    <section class="dnft-p7 dnft-p-short q-py-xl">-->
+<!--                        <a id="join-us"></a>-->
+<!--                        <p class="dnft-h2" title="Join us"></p>-->
+<!--                        <div class="row q-col-gutter-md q-py-xl">-->
+<!--                            <div class="col-12 col-md-4">-->
+<!--                                <div class="dnft-card">-->
+<!--                                    <div class="dntf-card-txt" style="align-items: center;">-->
+<!--                                        <p class="intro">Job Opportunities</p>-->
+<!--                                        <q-separator class="card-sep"></q-separator>-->
+<!--                                        <p class="short">To become a member of DNFT team, to govern together and to develop an open, transparent and stable financial platform.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-12 col-md-4">-->
+<!--                                <div class="dnft-card">-->
+<!--                                    <div class="dntf-card-txt" style="align-items: center;">-->
+<!--                                        <span class="intro">Ecosystem Partner</span>-->
+<!--                                        <q-separator class="card-sep"></q-separator>-->
+<!--                                        <span class="short">Work and build with DNFT team members to integrate Acala stable coin into your products and services.</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-12 col-md-4">-->
+<!--                                <div class="dnft-card">-->
+<!--                                    <div class="dntf-card-txt" style="align-items: center;">-->
+<!--                                        <span class="intro">Inverstor</span>-->
+<!--                                        <q-separator class="card-sep"></q-separator>-->
+<!--                                        <span class="short">Talk to us about investing in the DNFT team's venture portfolio.</span>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </section>-->
                     <section class="dnft-p8 dnft-p-short q-py-xl">
                         <a id="grant"></a>
                         <p class="dnft-h2" title="NFT & Game Grant"></p>
                         <p class="field">
-                            DNFT protocol encourages NFT and game projects to join the DNFT protocol ecosystem, which will open when the main network is officially launched。
+                            DNFT protocol encourages NFT and game projects to join the DNFT protocol ecosystem, which will open when the main network is officially launched.<br>
                             We will provide:<br>
-                            - A grants bouns pool of 10,000,000 DNF will be provided for the ecosystem dapps & parters.<br>
+                            - A grants bouns pool of 10,000,000 DNF will be provided for the ecosystem dapps & parters<br>
                             - Technical training and support<br>
                             - Discussion on frontier industry knowledge<br>
                         </p>
