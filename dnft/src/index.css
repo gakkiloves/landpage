@@ -1,31 +1,11 @@
-/*html {*/
-/*    font-size : 8px;*/
-/*}*/
-/*@media only screen and (min-width: 401px){*/
-/*    html {*/
-/*        font-size: 25px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 428px){*/
-/*    html {*/
-/*        font-size: 26.75px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 481px){*/
-/*    html {*/
-/*        font-size: 30px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 569px){*/
-/*    html {*/
-/*        font-size: 35px !important;*/
-/*    }*/
-/*}*/
-/*@media only screen and (min-width: 641px){*/
-/*    html {*/
-/*        font-size: 14px !important;*/
-/*    }*/
-/*}*/
+html {
+    font-size : 8px;
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 14px !important;
+    }
+}
 
 body{
     background: #0c1c4c;
@@ -62,50 +42,49 @@ p{
     background-attachment: fixed;
 }
 .dnft-p1 .intro{
-    font-size: 36px;
-    letter-spacing: 0.86px;
-    line-height: 70px;
+    font-size: 2.57rem;
+    letter-spacing: 0.06rem;
+    line-height: 5rem;
     text-transform: uppercase;
 }
 .dnft-p1 .short{
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    line-height: 23px;
-    text-transform:capitalize
+    font-size: 1.14rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.64rem;
+    text-transform: capitalize
 }
 .dnft-p2{
-    min-height: 128px;
-    padding: 1rem 0;
+    min-height: 0.86rem;
+    padding: 1rem .5rem;
     background-image: linear-gradient(-40deg, #122865 0%, #1E3574 100%);
 }
 .dnft-p2 .intro{
-    font-size: 40px;
+    font-size: 2.86rem;
     color: #FFFFFF;
-    letter-spacing: 0.95px;
+    letter-spacing: 0.07rem;
 }
 .dnft-p2 .short{
-    font-size: 20px;
+    font-size: 1.43rem;
     color: #FFFFFF;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.03rem;
 }
 .dnft-p3{
     padding: 3rem 0;
 }
 .dnft-p3 .intro{
-    font-size: 36px;
-    letter-spacing: 0.86px;
+    font-size: 2.57rem;
+    letter-spacing: 0.06rem;
 }
 .dnft-p3 .short{
-    font-size: 16px;
-    letter-spacing: 0.5px;
+    font-size: 1.14rem;
+    letter-spacing: 0.06rem;
 }
 .dnft-card{
     padding: 3rem 0;
-    min-height: 251px;
-    height: 251px;
+    min-height: 18rem;
+    height: 18rem;
     background-image: linear-gradient(-40deg, #333E80 0%, #415D95 100%);
-    border-radius: 16px;
-    border-radius: 16px;
+    border-radius: 1.14rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -141,26 +120,26 @@ text-transform:capitalize
     margin: 1rem 0;
 }
 .dntf-card-txt .intro{
-font-size: 36px;
-letter-spacing: 1.05px;
-line-height: 36px;
+font-size: 2.57rem;
+letter-spacing: 0.075rem;
+line-height: 2.57rem;
 }
 .dntf-card-txt .short{
-font-size: 16px;
-letter-spacing: 0.5px;
-line-height: 23px;
+font-size: 1.143rem;
+letter-spacing: 0.04rem;
+line-height: 1.64rem;
 }
 
 .dnft-h2{
 position: relative;
-height: 147px;
+height: 10.5rem
 }
 .dnft-h2::after{
 content:attr(title);
 position: absolute;
-font-size: 36px;
-letter-spacing: 1.2px;
-line-height: 43px;
+font-size: 2.57rem;
+letter-spacing: 0.02rem;
+line-height: 3.07rem;
 z-index: 2;
 left: 50%;
 transform: translateX(-50%);
@@ -170,7 +149,7 @@ bottom: 0;
 content:attr(title);
 position: absolute;
 opacity: 0.04;
-font-size: 80px;
+font-size: 5.71rem;
 z-index: 1;
 top: 0;
 transform: translateX(-50%);
@@ -178,21 +157,32 @@ left: 50%;
 }
 
 .dnft-p6-short{
-font-size: 16px;
-letter-spacing: 0.5px;
-line-height: 23px;
+font-size: 1.14rem;
+letter-spacing: 0.04rem;
+line-height: 1.64rem;
 }
 .dnft-p6-info{
-font-size: 36px;
-letter-spacing: 1.05px;
-line-height: 27px;
+font-size: 2.57rem;
+letter-spacing: 0.08rem;
+line-height: 1.93rem;
+}
+.dnft-p6 .coop-item{
+    height: 18rem;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.dnft-p6 img{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .dnft-p8 .field{
-white-space: pre-line;
-text-align: left;
-font-size: 24px;
-line-height: 43px;
+    white-space: pre-line;
+    text-align: left;
+    font-size: 1.71rem;
+    line-height: 3.07rem;
 }
 .img-wrapper img{
 width: 50%;
@@ -200,8 +190,8 @@ margin-left: 50%;
 }
 
 .dnft-rights{
-font-size: 16px;
-letter-spacing: 0.5px;
+font-size: 1.14rem;
+letter-spacing: 0.04rem;
 text-align: center;
-line-height: 23px;
+line-height: 1.64rem;
 }
