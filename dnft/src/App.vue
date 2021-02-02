@@ -247,11 +247,11 @@
                         <a id="partners"></a>
                         <p class="dnft-h2" title="Cooperative partner"></p>
                         <div class="row q-col-gutter-md q-py-xl">
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/Innlogo.png" alt="coop">
+                            <div class="col-6 col-md-3 coop-item">
+                                <img src="img/coop/dorahacks-logo.png" alt="coop">
                             </div>
-                            <div class="col-6 col-md-3">
-                                <img class="full-width" src="img/coop/c7.png" alt="coop">
+                            <div class="col-6 col-md-3 coop-item">
+                                <img src="img/coop/inncube-logo.png" alt="coop">
                             </div>
                         </div>
                     </section>
