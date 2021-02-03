@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1327474",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1817792",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
       "icon_id": "593026",
       "name": "top02",
       "font_class": "top02",
