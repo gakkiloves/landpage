@@ -48,9 +48,8 @@ p{
     align-items: center;
     flex-flow: column;
     justify-content: center;
-    background: url(asset/headBg.png);
+    background: #122865 url(asset/headBg.png) center fixed;
     background-repeat-x: no-repeat;
-    background-attachment: fixed;
 }
 .dnft-p1 .intro{
     font-size: 2.57rem;
