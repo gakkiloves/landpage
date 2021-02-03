@@ -8,55 +8,76 @@
                         <q-avatar>
                             <img src="img/dnftLogo.svg">
                         </q-avatar>
-                        <span v-show="!$q.screen.lt.sm"> DNFT.world</span>
+                        <span> DNFT.world</span>
                     </q-toolbar-title>
-                    <q-btn flat label="Resource">
-                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
-                            <q-list seperater style="min-width: 100px">
-                                <q-item tag="a" clickable href="https://github.com/DNFT-Team/DNFT-white-paper" target="_blank">
-                                    <q-item-section>Whitepaper</q-item-section>
-                                </q-item>
-<!--                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">-->
-<!--                                    <q-item-section>Documentation</q-item-section>-->
-<!--                                </q-item>-->
-<!--                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">-->
-<!--                                    <q-item-section>Developer Tools</q-item-section>-->
-<!--                                </q-item>-->
-                            </q-list>
-                        </q-menu>
-                    </q-btn>
-                    <q-btn flat label="Products">
-<!--                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">-->
-<!--                            <q-list seperater style="min-width: 100px">-->
-<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#what-is-dnft">-->
-<!--                                    <q-item-section>What is DNFT</q-item-section>-->
-<!--                                </q-item>-->
-<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#Applications">-->
-<!--                                    <q-item-section>Applications</q-item-section>-->
-<!--                                </q-item>-->
-<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#roadmap">-->
-<!--                                    <q-item-section>Roadmap</q-item-section>-->
-<!--                                </q-item>-->
-<!--                            </q-list>-->
-<!--                        </q-menu>-->
-                    </q-btn>
-                    <q-btn flat label="Foundation">
-<!--                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">-->
-<!--                            <q-list seperater style="min-width: 100px">-->
-<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#partners">-->
-<!--                                    <q-item-section>Partners</q-item-section>-->
-<!--                                </q-item>-->
-<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#join-us">-->
-<!--                                    <q-item-section>Join us</q-item-section>-->
-<!--                                </q-item>-->
-<!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#grant">-->
-<!--                                    <q-item-section>Grant</q-item-section>-->
-<!--                                </q-item>-->
-<!--                            </q-list>-->
-<!--                        </q-menu>-->
-                    </q-btn>
+                    <q-btn v-if="$q.screen.lt.sm" @click="right=!right" unelevated dense flat size="sm" icon="bt-caidan" />
+                    <template v-else>
+                        <q-btn flat label="Resource">
+                            <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">
+                                <q-list seperater style="min-width: 100px">
+                                    <q-item tag="a" clickable href="https://github.com/DNFT-Team/DNFT-white-paper" target="_blank">
+                                        <q-item-section>Whitepaper</q-item-section>
+                                    </q-item>
+                                    <!--                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">-->
+                                    <!--                                    <q-item-section>Documentation</q-item-section>-->
+                                    <!--                                </q-item>-->
+                                    <!--                                <q-item tag="a" clickable href="https://github.com/DNFT-Team" target="_blank">-->
+                                    <!--                                    <q-item-section>Developer Tools</q-item-section>-->
+                                    <!--                                </q-item>-->
+                                </q-list>
+                            </q-menu>
+                        </q-btn>
+                        <q-btn flat label="Products">
+                            <!--                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">-->
+                            <!--                            <q-list seperater style="min-width: 100px">-->
+                            <!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#what-is-dnft">-->
+                            <!--                                    <q-item-section>What is DNFT</q-item-section>-->
+                            <!--                                </q-item>-->
+                            <!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#Applications">-->
+                            <!--                                    <q-item-section>Applications</q-item-section>-->
+                            <!--                                </q-item>-->
+                            <!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#roadmap">-->
+                            <!--                                    <q-item-section>Roadmap</q-item-section>-->
+                            <!--                                </q-item>-->
+                            <!--                            </q-list>-->
+                            <!--                        </q-menu>-->
+                        </q-btn>
+                        <q-btn flat label="Foundation">
+                            <!--                        <q-menu fit transition-show="jump-down" transition-hide="jump-up" content-class="bg-primary text-white">-->
+                            <!--                            <q-list seperater style="min-width: 100px">-->
+                            <!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#partners">-->
+                            <!--                                    <q-item-section>Partners</q-item-section>-->
+                            <!--                                </q-item>-->
+                            <!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#join-us">-->
+                            <!--                                    <q-item-section>Join us</q-item-section>-->
+                            <!--                                </q-item>-->
+                            <!--                                <q-item tag="a" clickable href="https://dnft.world/index.html#grant">-->
+                            <!--                                    <q-item-section>Grant</q-item-section>-->
+                            <!--                                </q-item>-->
+                            <!--                            </q-list>-->
+                            <!--                        </q-menu>-->
+                        </q-btn>
+                    </template>
                 </q-toolbar>
             </q-header>
+
+            <q-drawer v-model="right" side="left" behavior="mobile" content-class="bg-primary text-white">
+                <q-list bordered class="rounded-borders bg-primary" separator>
+                    <q-expansion-item
+                            expand-icon-class="text-white"
+                            expand-icon="bt-down"
+                            content-inset-level="1"
+                            label="Resource"
+                            default-opened
+                    >
+                        <q-item tag="a" clickable href="https://github.com/DNFT-Team/DNFT-white-paper" target="_blank">
+                            <q-item-section style="text-decoration: underline;">Whitepaper</q-item-section>
+                        </q-item>
+                    </q-expansion-item>
+                    <q-expansion-item expand-icon-class="text-white" expand-icon="bt-down" label="Products"></q-expansion-item>
+                    <q-expansion-item expand-icon-class="text-white" expand-icon="bt-down" label="Foundation"></q-expansion-item>
+                </q-list>
+            </q-drawer>
 
             <q-page-container>
                 <main class="dnft-main">
@@ -352,7 +373,12 @@
 
 <script>
     export default {
-        name: "App"
+        name: "App",
+        data(){
+            return {
+                right: false
+            }
+        }
     }
 </script>
 
