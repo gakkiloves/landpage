@@ -274,9 +274,9 @@
                             <div class="col-6 col-md-3 coop-item">
                                 <img src="img/coop/web3Foundation.svg" alt="coop">
                             </div>
-                            <div class="col-6 col-md-3 coop-item">
-                                <img src="img/coop/hashkey.svg" alt="coop">
-                            </div>
+<!--                            <div class="col-6 col-md-3 coop-item">-->
+<!--                                <img src="img/coop/hashkey.svg" alt="coop">-->
+<!--                            </div>-->
                             <div class="col-6 col-md-3 coop-item">
                                 <img src="img/coop/filecoin.png" alt="coop">
                             </div>
