@@ -358,7 +358,7 @@
                     <q-space></q-space>
                     <div class="row q-gutter-x-md">
                         <q-btn type="a" href="https://github.com/DNFT-Team/" target="_blank" flat round dense color="grey" size="sm" icon="bt-github"></q-btn>
-                        <q-btn type="a" href="https://https://t.me/dnftprotocol" target="_blank"  flat round dense color="grey" size="sm" icon="bt-telegram"></q-btn>
+                        <q-btn type="a" href="https://t.me/dnftprotocol" target="_blank"  flat round dense color="grey" size="sm" icon="bt-telegram"></q-btn>
                         <q-btn type="a" href="https://discord.gg/avG3rsebEX" target="_blank"  flat round dense color="grey" size="sm" icon="bt-discord"></q-btn>
                         <q-btn type="a" href="https://twitter.com/DNFTfomo" target="_blank"  flat round dense color="grey" size="sm" icon="bt-twitter"></q-btn>
                         <q-btn type="a" href="https://medium.com/dnft-protocol" target="_blank"  flat round dense color="grey" size="sm" icon="bt-medium"></q-btn>
